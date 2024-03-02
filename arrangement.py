@@ -6,8 +6,7 @@ import os
 import shutil
 
 
-root_dir = '/media/afullbottle/D9C3-CA83/obspy/test/' #改这里
-
+root_dir = '/media/afullbottle/D9C3-CA83/obspy/test/' #edit this path
 
 for root, dirs, files in os.walk(root_dir):
     for file in files:
